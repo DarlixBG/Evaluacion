@@ -1,34 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .container{
-    margin-left: auto;
-    margin-right: auto;
+    width: 1200px;
+    margin: 0px auto;
+    background-color: darkgray;
 }
 
 #presentation-section{
     background-color: blanchedalmond;
-
+    height: 380px;
+    margin: 0px auto;
+    margin-top: 50px;
 }
 
 #main-info, #img-container{
-    display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 0px;
 }
 
 #main-info{
-    width: 600px;
-    height: 320px;
+    width: 70%;
+    height: 100%;
     background-color: chartreuse;
+    text-align: center;
+    float: left;
 }
 
 #img-container{
-    width: 300px;
-    height: 320px;
+    width: 30%;
+    height: 100%;
     background-color: blueviolet;
+    float: right;
 }
 
 img{
-    width: 300px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    padding: 20px;
+    height: 50px;
+}
+
+#button-next-page{
+    padding: 10px;
+    background-color: tomato;
+    text-align: center;
+    line-height: 100%;
 }
