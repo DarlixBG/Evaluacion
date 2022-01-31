@@ -13,17 +13,18 @@ body{
     margin: 0px auto;
 }
 
+nav{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #presentation-section{
     height: 500px;
-    margin: 0px auto;
-    margin-top: 40px;
 }
 
-#main-info, #img-container{
-    margin-top: 0px;
-}
-
-#main-info{
+.main-info{
     width: 70%;
     height: 100%;
     text-align: center;
@@ -49,14 +50,13 @@ img{
 
 h2{
     padding: 20px;
-    height: 50px;
+    height: 40px;
     color: #009DAE ;
     font-size: 30px;
 }
 
 #button-next-page{
-    height: 40px;
-    padding: 10px;
+    height: 20px;
     text-align: center;
     line-height: 100%;
 }
@@ -64,19 +64,27 @@ h2{
 p{
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 10px;
     font-size: 17px;
     text-align: justify;
 }
 
-#more-about-me{
+a{
     text-decoration: none;
     font-size: 24px;
     color: #009DAE ;
 }
 
-#more-about-me:hover{
+a:hover{
     transition: 200ms;
     font-size: 26px;
     color: #0077ae ;
+}
+
+span a{
+    font-size: 20px;
+}
+
+#button-prev-page{
+    margin-top: 20px;
+    text-align: center;
 }
