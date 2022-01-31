@@ -4,20 +4,19 @@
 }
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container{
     width: 1200px;
+    height: 100%;
     margin: 0px auto;
-    background-color: darkgray;
 }
 
 #presentation-section{
-    background-color: blanchedalmond;
-    height: 380px;
+    height: 500px;
     margin: 0px auto;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 #main-info, #img-container{
@@ -27,7 +26,6 @@ body{
 #main-info{
     width: 70%;
     height: 100%;
-    background-color: chartreuse;
     text-align: center;
     float: left;
 }
@@ -35,23 +33,50 @@ body{
 #img-container{
     width: 30%;
     height: 100%;
-    background-color: blueviolet;
-    float: right;
+    float: left;
+    display: table;
+}
+
+#img-container div{
+    display: table-cell;
+    vertical-align: middle;
 }
 
 img{
     width: 100%;
-    height: 100%;
+    height: 380px;
 }
 
 h2{
     padding: 20px;
     height: 50px;
+    color: #009DAE ;
+    font-size: 30px;
 }
 
 #button-next-page{
+    height: 40px;
     padding: 10px;
-    background-color: tomato;
     text-align: center;
     line-height: 100%;
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+#more-about-me{
+    text-decoration: none;
+    font-size: 24px;
+    color: #009DAE ;
+}
+
+#more-about-me:hover{
+    transition: 200ms;
+    font-size: 26px;
+    color: #0077ae ;
 }
