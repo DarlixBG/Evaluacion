@@ -84,6 +84,12 @@ span a{
     font-size: 20px;
 }
 
+span a:hover{
+    font-size: 20px;
+    color: #009DAE;
+    transition: none;
+}
+
 #button-prev-page{
     margin-top: 20px;
     text-align: center;
