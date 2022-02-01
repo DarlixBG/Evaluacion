@@ -1,0 +1,47 @@
+body{
+	font-family: arial, helvetica;
+	background-image: url("../img/fondo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+p{
+	color: white;
+	text-align: center;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+.Yo{
+	display:block;
+	margin:auto;
+	width: 30%;
+	height: 30%;
+
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
