@@ -4,14 +4,40 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mi blog</title>
-	<style>
-		body{
-			background-color: black;
-		}
-		p{
-			text-align: justify;
-		}
-	</style>
+	<style type="">
+    *{
+        margin: 0;
+        padding: 0;
+      }
+    section{ }
+
+html {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(lightseagreen,lightcyan,red,blue,orange,yellow,aqua,cyan,purple);
+  background-size: 200% 800%;
+  position: relative;
+  animation: cambiar 25s ease infinite;
+  font-family: "Varela Round", sans-serif;
+}
+
+@keyframes line {
+  0% {
+    background-position-x: 390px;
+  }
+}
+
+body {
+  color: white;
+
+}
+ @keyframes  cambiar{
+  0%{background-position: 5 50%;}
+  50%{background-position: 85% 90%;}
+  100%{background-position: 70 50%;}
+ }
+</style>
+</head>
 </head>
 <body>
 	<header>
@@ -25,10 +51,10 @@
 			</ul>
 		</nav>
 	</header>
-	<section style="color: white;">
+	<section style="color: black;">
 		<header>
 			<center>
-			<h1 style="color: white;">¿A que me quiero dedicar?</h1>
+			<h1 style="color: black;">¿A que me quiero dedicar?</h1>
 			<p>
 				<font size="8">Quisiera dedicarme al desarrollo de software, paginas web, desarrollo movil y hacking etico, creo son unas de las cosas que mas me llama la atencion del la programacion, mas sin embargo hay muchas cosas interesantes en las demas areas, pero personalmente esas las que he mencionado.<br>
 				Mas sin embargo quisiera seguirme preparando para cualquier cosa que se presente en la vida referente a todo este mundo del desarrollo, cabe destacar que esta es la primera vez que toco lo que es HTML, y me ha gustado bastante, en fin. <br>

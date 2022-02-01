@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<meta name="Ulises" content="Esta es mi primera pagina web">
+<style type="">
+    *{
+        margin: 0;
+        padding: 0;
+      }
+    section{ }
 
-	<title>Pagina de Ulises</title>
-	<style>
-		body{
-			background-image: url(img/fondo.jpg);
-		}
-		footer{
-			background-color: white;
-		}
-		p{
-			text-align: justify;
-		}
+html {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(lightseagreen,lightcyan,red,blue,orange,yellow,aqua,cyan,purple);
+  background-size: 200% 800%;
+  position: relative;
+  animation: cambiar 23s ease infinite;
+  font-family: "Varela Round", sans-serif;
+}
 
-	</style>
+@keyframes line {
+  0% {
+    background-position-x: 390px;
+  }
+}
+
+body {
+  color: white;
+
+}
+ @keyframes  cambiar{
+  0%{background-position: 5 50%;}
+  50%{background-position: 85% 90%;}
+  100%{background-position: 70 50%;}
+ }
+</style>
+</head>
 </head>
 <body>
 	<style></style>
@@ -37,11 +55,11 @@
 			</ul>
 		</nav>
 	</header>
-	<center><h1 style="color: white;"><i>Bienvenido a mi pagina</i></h1></center>
+	<center><h1 style="color: black;"><i>Bienvenido a mi pagina</i></h1></center>
 	<center><img src="img/uli.png" width="300" border="5"></center>
 	<div>
 		<h2 style="color: white;">Informacion de mi :)</h2>
-		<center><font size="6"><p style="color: white;">Mi nombre <b>Ulises Bedolla Gonzalez</b> soy del municipio de <b>Uriangato GTO</b> naci en morelia michoacan pero radico en uriangato. durante mi instancia en el municipio, la secundaria la hice en la escuela ESOE, despues de salir de la secundaria hice el bachillerato en el <mark>CBTIS 217</mark>, durante ese proceso me ha gustado mucho lo que es la TICs, me gusta todo lo referente a las computadoras desde el software hasta el hardware, dentro de la instancia de la prepa nos preparamos para armar y desarmar computadoras, a dia de hoy gracias al trabajo y esfuerzo pude armar una computadora desde cero. <br> 
+		<center><font size="6"><p style="color: black;">Mi nombre <b>Ulises Bedolla Gonzalez</b> soy del municipio de <b>Uriangato GTO</b> naci en morelia michoacan pero radico en uriangato. durante mi instancia en el municipio, la secundaria la hice en la escuela ESOE, despues de salir de la secundaria hice el bachillerato en el <mark>CBTIS 217</mark>, durante ese proceso me ha gustado mucho lo que es la TICs, me gusta todo lo referente a las computadoras desde el software hasta el hardware, dentro de la instancia de la prepa nos preparamos para armar y desarmar computadoras, a dia de hoy gracias al trabajo y esfuerzo pude armar una computadora desde cero. <br> 
 			</p>
 		</center>
 		<center><img src="img/Cbtis.jpg" width="300" border="4"></center>
